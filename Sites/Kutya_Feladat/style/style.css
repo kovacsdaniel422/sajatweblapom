@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2020.11.12., 11:03:11
+    Author     : Dániel
+*/
+
+@charset "utf-8";
+/*-------------------Összes oldalhoz tartozó----------------------------------*/
+body{
+    background-image: url("../Pics/hatter.jpg");
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:#8dc73f;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+#container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto; 
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+#fejlec {   
+    background-image: url("../Pics/fejlec.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+    color: white;
+}
+.torol{
+    clear: both;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
+}
+.anyag{
+    float:right;
+    width:80%;
+
+}
+/*----------------------------------------------------------------------------*/
+li{
+    padding: 5px;
+}
+ul{
+    list-style-type:none;
+}
+
+.pics1{
+    float: left;
+    padding-left: 10px;
+    width: 210px;
+
+}
+.pics2{
+    float: right;
+    padding-left: 10px;
+    width: 210px;
+}
+
+.pics3{
+    float: left;
+    padding-left: 10px;
+    width: 210px;
+
+
+}
+.pics4{
+    float: right;
+    padding-left: 10px;
+    width: 210px;
+
+}
+
+h3{
+    color:red;
+}
+
+#meret{
+    color: green;
+}
+
+.vonal{
+    border-top: 2px dotted black;
+    padding-top: 15px;
+}
+
+table{
+    color: brown;
+    text-align: center;
+}
+
+td, th{
+    border-bottom: 1px solid black;
+    padding-left: 10px
+}
+
+.szin{
+    background: lightgray;
+}
+
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+
+    div.content {margin-left: 0;}
+
+    #container{
+        width: 100%;
+    }
+
+    .pics1{
+        float: left;
+        padding-right: 10px;
+        width: 100%;
+
+
+    }
+    .pics2{
+        float: right;
+        padding-left: 10px;
+        width: 100%;
+
+    }
+    .pics3{
+        float: left;
+        padding-left: 10px;
+        width: 100%;
+
+
+    }
+    .pics4{
+        float: right;
+        padding-left: 10px;
+        width: 100%;
+
+    }
+    #fejlec {   
+        padding-top: 0px;
+        font-size: 14px;
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}

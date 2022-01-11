@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@media screen and (max-width: 600px) {
+	#tartalmazo{
+		background:red;
+		width:100%;
+	}
+	img{
+    width: 100%;
+  }
+
+}
+
+
+body{background-image:url("../kepek/hatterem3.jpg");
+	text-align:justify;}
+	
+h1{color:white;
+text-align: center;
+border-bottom:2px dashed #a8a8a8;
+
+}
+h2{
+	color:white;
+}
+p{color:white;
+
+}
+
+
+#tartalmazo{
+width:80%;
+max-width:700px;
+margin: 0 auto;
+background:gray;
+padding: 10px;
+
+}
+
+img{ width:400px;
+margin:10px;}
+
+.jobb{
+	float:right;	
+	border-style: dotted;
+	border-color:#a8a8a8;
+	width:auto;
+	height:200px;
+	margin: 10px;
+}
+.bal{
+	float:left;	
+	border-style: dotted;
+	border-color:#a8a8a8;
+	width:auto;
+	height:200px;
+	margin: 10px;
+	
+}
+
+#torol{
+	clear:both;
+	
+}
+
+

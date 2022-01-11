@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2020, 7:53:00 PM
+    Author     : Dániel
+*/
+
+@charset "utf-8";
+
+header {
+    /*gyerek elem*/
+    grid-area:h
+
+}
+
+nav {
+    /*gyerek elem*/
+    grid-area:n
+
+}
+
+article {
+    /*gyerek elem*/
+    grid-area:a
+
+}
+
+aside {
+    grid-area: d
+}
+
+section {
+    grid-area: s
+}
+
+
+footer {
+    /*gyerek elem*/
+    grid-area:f
+
+}
+
+main {
+    display:grid;
+    grid-template-areas:
+        "h h h h h"
+        "n n n n n"
+        "a a a d d"
+        "s s s s s"
+        "f f f f f"
+}
+
+header {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:800px) {
+    
+    main {
+    display:grid;
+    grid-template-areas:
+    "h"
+    "n"
+    "a"
+    "d"
+    "s"
+    "f"
+}
+
+section {
+    display:grid;
+    grid-template-columns: 1fr; 
+}
+
+}

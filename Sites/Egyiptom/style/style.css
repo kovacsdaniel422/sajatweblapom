@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@media screen and (max-width: 600px) {
+	#tartalmazo{
+		background:red;
+		width:100%;
+	}
+	img{
+    width: 100%;
+  }
+
+}
+
+
+body{background-image:url("../kepek/egyiptomihatter.jpg");
+text-align:justify;}
+	
+h1{color:#AA4434;
+text-align: center;
+padding: 10px;
+font-family: 'Akronim', cursive;
+font-variant-caps: all-small-caps;
+letter-spacing: 2px
+
+}
+h2{
+	color:#AA4434;
+        border-bottom:2px solid #AA4434;
+        border-top:2px solid #AA4434;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: verdana;
+font-variant-caps: all-small-caps;
+letter-spacing: 2px
+       
+}
+p{color:#AA4434;
+
+}
+
+
+#tartalmazo{
+width:80%;
+max-width:700px;
+margin: 0 auto;
+background:#DFBF6C;
+padding: 10px;
+
+}
+
+img{ width:400px;
+margin:10px;}
+
+.jobb{
+	float:right;	
+	border-style: dashed;
+	border-color:#AA4434;
+	width:auto;
+	height:200px;
+	margin: 10px;
+
+}
+.bal{
+	float:left;	
+	border-style: dashed;
+	border-color:#AA4434;
+	width:auto;
+	height:200px;
+	margin: 10px;
+        padding: 5px;
+	
+}
+
+.torol{
+	clear:both;
+	
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #03a39b;
+    color: white;
+}
+
+

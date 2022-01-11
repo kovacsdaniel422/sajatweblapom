@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2020, 9:36:35 AM
+    Author     : Dániel
+*/
+
+@charset "utf-8";
+/* ----------------------------Oldal Teste----------------------------------- */
+body {
+    background-image:url(../Kepek/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    margin: auto;
+    max-width:1000px;
+    width: 75%;
+    border:3px solid black;
+    background-color:gray;
+    padding:10px;
+    border-color: white
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+/* ---------------------------Fej+Navigáció---------------------------------- */
+header h1 {
+    font-size:70px;
+    text-align:right;
+    padding-right:20px;
+    text-shadow: 5px 5px 5px grey;
+
+}
+header img {
+    width:150px;
+    max-width:100%;
+    float: right
+}
+
+nav ul {
+    border-top: 3px dashed white; 
+    border-bottom: 3px dashed white;
+    height:30px;
+    padding:0;
+    padding-top: 10px;
+    margin-bottom:25px;
+}
+
+nav li {
+    list-style-type: none;
+    padding-top: 6px;
+    text-align: center;
+    background-color:black;
+    margin:0 10px 0 10px;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 10px grey;
+
+}
+
+/* -----------------------------Közép/Tartalom------------------------------- */
+
+aside {
+    margin-left:10px;
+    margin-right:10px;
+    border:3px solid white;
+}
+
+aside ul {
+    background-color:#333333;
+    padding:30px;
+    border-radius: 10px 10px;
+}
+
+aside p{
+    text-align:justify;
+    color:white;
+    background-color:#333333;
+    padding:15px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom:80px;
+}
+
+aside h1 {
+    margin:0px;
+}
+
+aside li {
+    text-align:center;
+    color:white;
+}
+
+article img {
+    width:40%;
+}
+
+article{
+    border:3px solid white;
+}
+
+#articlepics1 {
+    width:130px;
+    max-width:100%;
+    float: left;
+    margin-right:10px;
+}
+#Chess_Table{
+    border:transparent
+}
+/* -------------------------------------------------------------------------- */
+
+section div{
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
+
+}
+
+section p {
+    text-align: justify;
+    height:100px;
+    color:white;
+    background-color:#333333;
+    padding:15px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom:80px;
+    letter-spacing: 2px;
+}
+
+table,td {
+    border:1px solid black;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+th {
+    background-color:#333333;
+    color:white;
+    width:15px;
+}
+
+td {
+    width:30px;
+    height:30px;
+}
+
+tr:nth-child(odd) td:nth-child(even){
+    background-color:#333333;
+}
+
+tr:nth-child(even) td:nth-child(odd){
+    background-color:#333333;
+}
+
+section img {
+    max-width:100%;
+    width:200px;
+    border-radius: 10px ;
+    border: 2px solid white;
+    padding:5px;
+    height: 230px;
+}
+
+footer li {
+    float:left;
+    list-style-type: none;
+    padding-top:1px;
+    text-align: center;
+}
+
+footer ul {
+    background-color:#333333;
+    height:20px;
+    padding:0;
+}
+
+
+@media screen and (max-width:600px) {
+
+    section img {
+        width:auto;
+        height:auto;
+    }
+    h1{
+        ;
+
+    }
+}
